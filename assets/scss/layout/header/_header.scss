@@ -1,0 +1,23 @@
+@use "../../utils/index.scss" as *;
+
+.tp-header{
+    &-transparent{
+        background-color: transparent;
+        position: absolute;
+        top: 25px;
+        left: 0;
+        right: 0;
+    }
+    &-bg{
+        background-color: var(--tp-primary-color);
+    }
+    &-row{
+        display: flex;
+    }
+    &-logo{
+        &-box{
+            width: 200px;
+            text-align: center;
+        }
+    }
+}

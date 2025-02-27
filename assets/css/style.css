@@ -1,0 +1,37 @@
+:root {
+  --tp-theme-color:#ffcf4e;
+  --tp-primary-color:#073d30;
+  --tp-primary-color-light:#055c4d;
+  --tp-secondary-color:#fe4e15;
+  --tp-pink-color:#ff73ae;
+  --tp-white-color:#fff;
+  --tp-black-color:#000;
+}
+
+.bg-white {
+  background-color: var(--tp-white-color);
+}
+
+.bg-black {
+  background-color: var(--tp-black-color);
+}
+
+.tp-header-transparent {
+  background-color: transparent;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+}
+.tp-header-bg {
+  background-color: var(--tp-primary-color);
+}
+.tp-header-row {
+  display: flex;
+}
+.tp-header-logo-box {
+  width: 200px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
