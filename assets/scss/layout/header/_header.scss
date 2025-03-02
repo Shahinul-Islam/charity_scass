@@ -4,20 +4,90 @@
     &-transparent{
         background-color: transparent;
         position: absolute;
-        top: 25px;
+        top: 26px;
         left: 0;
         right: 0;
-    }
-    &-bg{
-        background-color: var(--tp-primary-color);
     }
     &-row{
         display: flex;
     }
+    &-bg{
+        background-color: var(--tp-primary-color);
+    }
+    
     &-logo{
         &-box{
             width: 200px;
             text-align: center;
+            background-color: var(--tp-primary-color);
+            padding:16px 10px;
+            
         }
+        &-shape{
+            position: relative;
+            &::after{
+                content: "";
+                border-style: solid;
+                border-width: 36px 0 36px 21px;
+                border-color: transparent transparent transparent var(--tp-primary-color);
+                position: absolute;
+                top: 0;
+                right: -20px;
+                transform: rotate(0deg);
+    
+            }
+        }
+        
+        
     }
+    &-menu{
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+       & ul {
+        display: flex;
+        
+        
+       }
+         & li{
+              list-style: none;
+              margin-right: 20px;
+              position: relative;
+              a{
+                color: var(--tp-primary-color);
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 600;
+                padding: 22px 0;
+                &:hover{
+                     color: var(--tp-secondary-color);
+                }
+                
+              }
+              & .sub-menu{
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: #ccc;
+                width: 220px;
+
+                &li{
+                    display: block;
+                    &a{
+                        color: var(--tp-primary-color);
+                        text-decoration: none;
+                        font-size: 16px;
+                        font-weight: 600;
+                        padding: 22px 0;
+                        display: block;
+                        &:hover{
+                            color: var(--tp-secondary-color);
+                        }
+                    }
+                }
+              }
+         }
+    }
+
+    
 }
