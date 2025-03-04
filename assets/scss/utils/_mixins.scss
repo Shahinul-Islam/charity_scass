@@ -1,0 +1,10 @@
+@use "../../utils/index.scss" as *;
+
+// transition
+@mixin transition($args) { 
+    -webkit-transition: $args; 
+    -moz-transition: $args; 
+    -ms-transition: $args; 
+    -o-transition: $args; 
+    transition: $args; 
+  }

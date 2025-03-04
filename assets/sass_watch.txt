@@ -1,2 +1,1 @@
-sass --watch F:\web_learn\charity\assets\scss\main.scss:F:\web_learn\charity\assets\css\style.cs 
-s
+sass --watch F:\web_learn\charity\assets\scss\main.scss:F:\web_learn\charity\assets\css\style.css
