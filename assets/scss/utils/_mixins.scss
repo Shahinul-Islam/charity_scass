@@ -1,7 +1,9 @@
-@use "../../utils/index.scss" as *;
+// @use "../../utils/index.scss" as *;
+
+// @use "./index.scss" as *;
 
 // transition
-@mixin transition($args) { 
+@mixin tp-transition($args:.3s) { 
     -webkit-transition: $args; 
     -moz-transition: $args; 
     -ms-transition: $args; 

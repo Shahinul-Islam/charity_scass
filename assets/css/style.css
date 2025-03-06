@@ -20,6 +20,16 @@ a {
   text-decoration: none;
 }
 
+.tp-btn {
+  background-color: var(--tp-theme-color);
+  padding: 20px 34px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  line-height: 1;
+  border-radius: 12px;
+}
+
 .tp-header-transparent {
   background-color: transparent;
   position: absolute;
@@ -27,8 +37,13 @@ a {
   left: 0;
   right: 0;
 }
+.tp-header-container {
+  max-width: 1424px;
+}
 .tp-header-bg {
   background-color: var(--tp-white-color);
+  padding-right: 5px;
+  border-radius: 12px;
 }
 .tp-header-row {
   display: flex;
@@ -38,6 +53,8 @@ a {
   padding: 16px 10px;
   background-color: var(--tp-primary-color);
   text-align: center;
+  flex: 0 0 auto;
+  border-radius: 12px 0 0 12px;
 }
 .tp-header-logo-shape {
   position: relative;
@@ -76,13 +93,25 @@ a {
 .tp-header-menu ul li:hover > a {
   color: var(--tp-theme-color);
 }
+.tp-header-menu ul li:hover > .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
 .tp-header-menu ul li .sub-menu {
   position: absolute;
-  top: 100%;
+  top: 105%;
   left: 0;
   background-color: var(--tp-white-color);
   width: 220px;
   padding: 18px 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 .tp-header-menu ul li .sub-menu li {
   display: block;
@@ -98,6 +127,39 @@ a {
 }
 .tp-header-menu ul li .sub-menu li:hover > a {
   color: var(--tp-theme-color);
+}
+.tp-header-menu ul li .sub-menu li .sub-menu {
+  top: 0;
+  left: 100%;
+}
+.tp-header-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.tp-header-right {
+  display: flex;
+  align-items: center;
+}
+.tp-header-phone a {
+  color: var(--tp-primary-color);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 22px 0;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+.tp-header-phone a:hover {
+  color: var(--tp-theme-color);
+}
+.tp-header-phone a img {
+  margin-right: 5px;
+}
+.tp-header-btn a {
+  text-decoration: none;
+  color: var(--tp-primary-color);
 }
 
 /*# sourceMappingURL=style.css.map */
