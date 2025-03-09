@@ -17,7 +17,87 @@
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.ml-35 {
+  margin-left: 35px;
+}
+
+.mr-35 {
+  margin-right: 35px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.ml-45 {
+  margin-left: 45px;
+}
+
+.mr-45 {
+  margin-right: 45px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.mr-50 {
+  margin-right: 50px;
 }
 
 .tp-btn {
@@ -45,9 +125,6 @@ a {
   padding-right: 5px;
   border-radius: 12px;
 }
-.tp-header-row {
-  display: flex;
-}
 .tp-header-logo-box {
   width: 200px;
   padding: 16px 10px;
@@ -71,15 +148,11 @@ a {
   top: 0;
   right: -20px;
 }
-.tp-header-menu {
-  margin-left: 50px;
-}
 .tp-header-menu ul {
   margin-bottom: 0;
 }
 .tp-header-menu ul li {
   display: inline-block;
-  margin-right: 40px;
   position: relative;
 }
 .tp-header-menu ul li a {
@@ -88,7 +161,6 @@ a {
   font-size: 16px;
   font-weight: 600;
   padding: 22px 0;
-  text-decoration: none;
 }
 .tp-header-menu ul li:hover > a {
   color: var(--tp-theme-color);
@@ -119,7 +191,6 @@ a {
 }
 .tp-header-menu ul li .sub-menu li a {
   color: var(--tp-primary-color);
-  text-decoration: none;
   font-size: 16px;
   font-weight: 600;
   padding: 3px 28px;
@@ -134,31 +205,22 @@ a {
 }
 .tp-header-content {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.tp-header-right {
-  display: flex;
-  align-items: center;
 }
 .tp-header-phone a {
   color: var(--tp-primary-color);
   font-size: 15px;
   font-weight: 600;
   padding: 22px 0;
-  text-decoration: none;
   display: flex;
   align-items: center;
-  margin-right: 25px;
 }
 .tp-header-phone a:hover {
   color: var(--tp-theme-color);
 }
-.tp-header-phone a img {
-  margin-right: 5px;
-}
 .tp-header-btn a {
-  text-decoration: none;
+  color: var(--tp-primary-color);
+}
+.tp-header-btn:hover a {
   color: var(--tp-primary-color);
 }
 

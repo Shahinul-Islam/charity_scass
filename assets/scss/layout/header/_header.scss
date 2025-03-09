@@ -19,7 +19,7 @@
        
     }
     &-row{
-        display: flex;
+        // display: flex;
     }
     &-logo{
         
@@ -51,12 +51,12 @@
     }
 
     &-menu{
-        margin-left: 50px;
+        // margin-left: 50px;
         & ul {
             margin-bottom: 0;
             & li{
                 display: inline-block;
-                margin-right: 40px;
+                // margin-right: 40px;
                 position: relative;
                 & a {
                     display: inline-block;
@@ -64,7 +64,7 @@
                     font-size: 16px;
                     font-weight: 600;
                     padding: 22px 0;
-                    text-decoration: none;
+                    // text-decoration: none;
                 }
                 &:hover {
                     & > a {color: var(--tp-theme-color);}
@@ -91,7 +91,7 @@
                         margin-right: 0px;
                         & a{
                             color: var(--tp-primary-color);
-                            text-decoration: none;
+                            // text-decoration: none;
                             font-size: 16px;
                             font-weight: 600;
                             padding: 3px 28px;
@@ -111,12 +111,12 @@
     }
     &-content{
         width: 100%;
-        display: flex;
-        justify-content: space-between;
+        // display: flex;
+        // justify-content: space-between;
     }
     &-right{
-        display: flex;
-        align-items: center;
+        // display: flex;
+        // align-items: center;
     }
 
     &-phone{
@@ -125,23 +125,29 @@
             font-size: 15px;
             font-weight: 600;
             padding: 22px 0;
-            text-decoration: none;
+            // text-decoration: none;
             display: flex;
             align-items: center;
-            margin-right: 25px;
+            // margin-right: 25px;
             &:hover {
                 color: var(--tp-theme-color);
             }
 
             & img{
-                margin-right: 5px;
+                // margin-right: 5px;
             }
         }
     }
     &-btn{
       & a{
-            text-decoration: none;
+            // text-decoration: none;
             color: var(--tp-primary-color);
-        }   
+        }
+        
+        &:hover{
+            & a{
+                color: var(--tp-primary-color);
+            }
+        }
     }
 }

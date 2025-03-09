@@ -1,0 +1,12 @@
+@use "../utils/." as *;
+
+@for $i from 1 through 10{
+    .ml-#{5*$i}{
+        margin-left: $i * 5px;
+    }
+
+    .mr-#{5*$i}{
+        margin-right: $i * 5px;
+    }
+}
+
