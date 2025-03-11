@@ -1,0 +1,42 @@
+@use "../../utils/index.scss" as *;
+
+.tp-hero{
+
+    &-area{
+    padding-top: 285px;
+    padding-bottom: 340px;
+   }
+    & span{
+       
+        font-size: 50px;
+        color: var(--tp-theme-color);
+        font-weight: 400;
+        line-height: 1;
+    }
+    &-title{
+        font-size: 120px;
+        letter-spacing: -3.6px;
+    }
+
+    &-video{
+
+    }
+    &-shape{
+        &-1{
+            
+            top: 40%;
+            left:7.5%;
+
+        }
+        &-2{
+            
+            bottom: 21%;
+            left: 6%;
+
+        }
+        &-down{
+            bottom: 20px;
+        }
+    }
+
+}

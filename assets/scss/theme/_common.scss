@@ -6,3 +6,112 @@
 .bg-black{
     background-color: var(--tp-black-color);
 }
+
+//font family
+.tp-heading-font{
+    font-family: var(--tp-font-heading);
+}
+
+.tp-sub-font{
+    font-family: var(--tp-font-sub-heading);
+}
+
+.tp-body-font{
+    font-family: var(--tp-font-body);
+}
+
+//position
+
+.tp-relative{
+    position: relative;
+}
+
+.tp-absolute{
+    position: absolute;
+}
+
+.tp-fixed{
+    position: fixed;
+}
+
+.tp-static{
+    position: static;
+}
+
+.tp-sticky{
+    position: sticky;
+}
+
+//display
+
+.tp-block{
+    display: block;
+}
+
+.tp-inline-block{
+    display: inline-block;
+}
+
+.tp-inline{
+    display: inline;
+}
+
+.tp-flex{
+    display: flex;
+}
+
+.tp-inline-flex{
+    display: inline-flex;
+}
+
+.tp-grid{
+    display: grid;
+}
+
+.tp-inline-grid{
+    display: inline-grid;
+}
+
+//flex
+
+.tp-flex-row{
+    flex-direction: row;
+}
+
+.tp-flex-column{
+    flex-direction: column;
+}
+
+.tp-flex-row-reverse{
+    flex-direction: row-reverse;
+}
+
+.tp-flex-column-reverse{
+    flex-direction: column-reverse;
+}
+
+.tp-flex-wrap{
+    flex-wrap: wrap;
+}
+
+// z-index
+
+@for $i from 1 through 10 {
+    .tp-z-index-#{$i}{
+        z-index: $i;
+    }
+}
+
+
+// .tp-z-index-1{
+//     z-index: 1;
+// }
+
+// .tp-z-index-2{
+//     z-index: 2;
+// }
+
+// .tp-z-index-3{
+//     z-index: 3;
+// }
+

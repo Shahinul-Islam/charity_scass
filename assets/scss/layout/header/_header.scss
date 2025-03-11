@@ -18,9 +18,7 @@
         border-radius: 12px;
        
     }
-    &-row{
-        // display: flex;
-    }
+    
     &-logo{
         
         
@@ -45,18 +43,16 @@
                 position: absolute;
                 top: 0;
                 right: -20px;
-                // border-radius: 0px 40px 0px 34px;
             }
         }
     }
 
     &-menu{
-        // margin-left: 50px;
         & ul {
             margin-bottom: 0;
             & li{
                 display: inline-block;
-                // margin-right: 40px;
+                
                 position: relative;
                 & a {
                     display: inline-block;
@@ -64,7 +60,7 @@
                     font-size: 16px;
                     font-weight: 600;
                     padding: 22px 0;
-                    // text-decoration: none;
+                   
                 }
                 &:hover {
                     & > a {color: var(--tp-theme-color);}
@@ -85,13 +81,13 @@
                     opacity: 0;
                     visibility: hidden;
                     @include tp-transition(.3s);
-                    // display: none;
+                    
                     & li{
                         display: block;
                         margin-right: 0px;
                         & a{
                             color: var(--tp-primary-color);
-                            // text-decoration: none;
+                            
                             font-size: 16px;
                             font-weight: 600;
                             padding: 3px 28px;
@@ -111,12 +107,6 @@
     }
     &-content{
         width: 100%;
-        // display: flex;
-        // justify-content: space-between;
-    }
-    &-right{
-        // display: flex;
-        // align-items: center;
     }
 
     &-phone{
@@ -125,29 +115,15 @@
             font-size: 15px;
             font-weight: 600;
             padding: 22px 0;
-            // text-decoration: none;
+            
             display: flex;
             align-items: center;
-            // margin-right: 25px;
+            
             &:hover {
                 color: var(--tp-theme-color);
             }
 
-            & img{
-                // margin-right: 5px;
-            }
         }
     }
-    &-btn{
-      & a{
-            // text-decoration: none;
-            color: var(--tp-primary-color);
-        }
-        
-        &:hover{
-            & a{
-                color: var(--tp-primary-color);
-            }
-        }
-    }
+    
 }

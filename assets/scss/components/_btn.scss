@@ -6,4 +6,14 @@
     display: inline-block;
     line-height: 1;
     border-radius: 12px;
+    color: var(--tp-primary-color);
+
+    &-white{
+        background-color: var(--tp-white-color);
+    }
+
+    &:hover{
+        
+        color: var(--tp-primary-color-light);
+    }
 }
