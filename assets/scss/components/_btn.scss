@@ -16,4 +16,19 @@
         
         color: var(--tp-primary-color-light);
     }
+
+    &-text{
+        font-size: 15px;
+        font-weight: 400;
+        color: var(--tp-black-color);
+        display: inline-block;
+        line-height: 1;
+        text-decoration: underline;
+        &:hover{
+            color: var(--tp-primary-color);
+        }
+    }
 }
+
+
+   

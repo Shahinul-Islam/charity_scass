@@ -1,0 +1,28 @@
+.tpservices{
+    border-radius: 16px 16px 0 0;
+    // background-color: var(--tp-white-color);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    padding: 50px 15px;
+    border-bottom: 2px solid var(--tp-primary-color);
+    &-area{
+        padding: 100px 0;
+    }
+
+    &__icon{
+
+    }
+
+
+    &__content{
+
+    }
+
+    
+    &__title{
+        font-size: 24px;
+
+        a {
+            color: var(--tp-black-color);
+        }
+    }
+}
